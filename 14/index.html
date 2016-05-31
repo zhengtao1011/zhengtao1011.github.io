@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>图片翻转动画</title>
+    <style>
+    body {
+        font: 600 14px/24px Arial;
+        margin: 12px;
+    }
+
+    .card-container {
+        cursor: pointer;
+        height: 700px;
+        perspective: 200;
+        position: relative;
+        width: 700px;
+    }
+
+    .card {
+        height: 100%;
+        position: absolute;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+    }
+
+    .card:hover {
+        transform: rotateY(180deg);
+    }
+
+    .side {
+        backface-visibility: hidden;
+        border-radius: 6px;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .back {
+        background: #eaeaed;
+        color: #0087cc;
+        line-height: 150px;
+        text-align: center;
+        transform: rotateY(180deg);
+    }
+    </style>
+</head>
+
+<body>
+    <h1>图片翻转效果</h1>
+    <div class="card-container">
+        <div class="card">
+            <div class="side"><img src="img/14.jpg" alt="水光潋滟晴方好"></div>
+            <div class="side back">水光潋滟晴方好</div>
+        </div>
+    </div>
+</body>
+
+</html>
