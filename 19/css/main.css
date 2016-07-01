@@ -51,6 +51,26 @@
     background-color: #f7f7f7;
 }
 
+.col-sm-4 h3 a {
+    color: red;
+    text-align:center;
+}
+
+.col-sm-4 h5 {
+    font-size: 24px;
+    color: red;
+    margin-top:45px;
+}
+
+.col-sm-4 h5 p {
+    font-size: 14px;
+    color: black;
+}
+
+.col-sm-4 h5 a {
+    color: red;
+}
+
 
 /*幻灯片样式*/
 
@@ -179,6 +199,11 @@ h2 {
 
 .news-meta {
     margin: 12px 0;
+    color: #999;
+}
+
+.media-heading a {
+    color: #999;
 }
 
 
