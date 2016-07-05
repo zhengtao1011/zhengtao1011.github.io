@@ -54,12 +54,11 @@
         <div class="row">
             <div class="col-sm-8">
                 <div id="slides">
-                 <img src="images/222222.jpg" alt="赵雅芝加盟湖南卫视真人秀《我们来了》已两年 Link:http://ent.btime.com/picture/20160703/n263923.shtml">
+                    <img src="images/222222.jpg" alt="赵雅芝加盟湖南卫视真人秀《我们来了》已两年 Link:http://ent.btime.com/picture/20160703/n263923.shtml">
                     <img src="images/000000.jpg" alt="霸道总裁！王思聪综艺首秀 当考官面试女神 Link: http://ent.btime.com/picture/20160704/n265273.shtml/">
                     <img src="images/111111.jpg" alt="太养眼！世界旅游小姐总决赛选手秀美胸长腿 Link:http://ent.btime.com/picture/20160704/n264649.shtml/">
-                     <img src="images/12345678.png" alt="她接班邓丽君十年损失千万 如今靠走穴为生 Link:http://ent.btime.com/picture/20160704/n265209.shtml">
-                     <img src="images/1010.jpg" alt="恋爱中的林心如亮相时装周 女王范儿十足 Link:http://ent.btime.com/picture/20160704/n264981.shtml">
-                   
+                    <img src="images/12345678.png" alt="她接班邓丽君十年损失千万 如今靠走穴为生 Link:http://ent.btime.com/picture/20160704/n265209.shtml">
+                    <img src="images/1010.jpg" alt="恋爱中的林心如亮相时装周 女王范儿十足 Link:http://ent.btime.com/picture/20160704/n264981.shtml">
                 </div>
             </div>
             <div class="col-sm-4">
@@ -123,11 +122,11 @@
                 <div>
                     <h2>热门报道</h2>
                     <!-- 使用百度免费新闻代码获取最新新闻列表 -->
-                    <script src="http://news.baidu.com/ns?word=title%3A%E5%85%A8%E6%B0%91%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2%E6%97%A5&tn=newsfcu&from=news&cl=1&rn=10&ct=0"></script>
+                    <script src="http://news.baidu.com/ns?word=title%3A%E5%A8%B1%E4%B9%90%E5%BF%AB%E6%8A%A5&tn=newsfcu&from=news&cl=2&rn=10&ct=0"></script>
                 </div>
             </div>
             <div class="col-sm-4">
-                <h2>网友热评</h2>
+                <h2>微博热议</h2>
                 <!-- 使用sina提供的js工具，使用ajax方式获取新浪微博的专题内容 -->
                 <div class="wl-content" id="list2"></div>
             </div>
@@ -181,9 +180,9 @@
     Weibo._getRequest({
         url: 'http://topic.t.sina.com.cn/interface/ajax/get_feed_by_keyword',
         data: {
-            keyword: '国家安全教育',
+            keyword: '新浪娱乐',
             page: 1,
-            pagesize: 10
+            pagesize: 8
         },
         onsuccess: function(data) {
             list2.reset(data);
